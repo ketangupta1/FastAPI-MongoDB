@@ -61,9 +61,9 @@ CRUD app with FastAPI and MongoDB
     import pymongo
     
     conn_str = “Your_Connection_String”
-	  client = pymongo.MongoClient(conn_str)
-
-	  db = client["Organisation"]
+    client = pymongo.MongoClient(conn_str)
+    
+    db = client["Organisation"]
     employeeCollection = db["employees"]
     
   
